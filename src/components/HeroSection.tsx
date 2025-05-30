@@ -5,7 +5,7 @@ export const HeroSection = () => (
       {/* Profile Image Box */}
       <div className="w-32 h-32 md:w-40 md:h-40 rounded-lg overflow-hidden shadow-md bg-gray-200 ring-2 ring-transparent hover:ring-black transition-all duration-300 ease-in-out cursor-pointer">
         <img
-          src="/mypic.jpg"
+          src="/formal2.png"
           alt="Profile photo of Ralph E. Eco"
           className="w-full h-full object-cover"
           loading="lazy"
