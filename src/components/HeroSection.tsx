@@ -1,12 +1,12 @@
 // components/HeroSection.tsx
 export const HeroSection = () => (
-  <section className="ml-10 py-15 mt-10 bg-white" id="hero">
+  <section className="ml-0 md:ml-10 py-12 mt-10 bg-white" id="hero">
     <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10 animate-fade-in">
       {/* Profile Image Box */}
       <div className="w-32 h-32 md:w-40 md:h-40 rounded-lg overflow-hidden shadow-md bg-gray-200 ring-2 ring-transparent hover:ring-black transition-all duration-300 ease-in-out cursor-pointer">
         <img
           src="/mypic.jpg"
-          alt="Profile of Ralph E. Eco"
+          alt="Profile photo of Ralph E. Eco"
           className="w-full h-full object-cover"
           loading="lazy"
         />
@@ -48,22 +48,22 @@ export const HeroSection = () => (
         </div>
 
         <div className="mt-6 flex justify-center md:justify-start gap-4">
-        <a
-            href=""
+          <a
+            href="#" // Replace with real scheduling link or modal trigger
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Schedule a call with Ralph"
-            className="px-5 py-2 bg-black hover:bg-gray-500 focus:bg-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-75 text-white rounded-md shadow-md transition-colors duration-300 text-center"
-        >
+            className="px-5 py-2 bg-black hover:bg-gray-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-400 text-white rounded-md shadow-md transition-colors duration-300 text-center"
+          >
             Schedule a Call
-        </a>
-        <a
+          </a>
+          <a
             href="mailto:ralpheco6@gmail.com?subject=Hello Ralph&body=I would like to connect with you."
             aria-label="Send email to Ralph"
-            className="px-5 py-2 border border-gray-600 text-gray-600 hover:bg-gray-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-opacity-75 rounded-md shadow-md transition-colors duration-300 text-center"
-        >
+            className="px-5 py-2 border border-gray-600 text-gray-600 hover:bg-gray-600 hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-400 rounded-md shadow-md transition-colors duration-300 text-center"
+          >
             Send Email
-        </a>
+          </a>
         </div>
       </div>
     </div>
