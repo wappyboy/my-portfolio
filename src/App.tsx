@@ -10,7 +10,7 @@ import { TechStack } from './components/TechStack';
 const App: React.FC = () => {
   return (
     <Router>
-      <div className="bg-white text-black font-sans">
+      <div className="bg-white text-black dark:bg-gray-900 dark:text-white font-sans transition-colors duration-300 min-h-screen">
         <main className="max-w-5xl mx-auto px-4">
           <Routes>
             <Route path="/" element={
