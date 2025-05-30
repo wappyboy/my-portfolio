@@ -1,6 +1,6 @@
 export const TechStack = () => {
   const frontend = ["HTML5", "CSS3", "JavaScript", "ReactJS", "NextJS", "Flutter"];
-  const backend = ["PHP", "Laravel", "Python", "Dart", "Java", "C#", "Firebase", "Supabase", "PostgreSQL"];
+  const backend = ["PHP", "Laravel", "Python", "Dart", "Java", "C#", "Firebase", "Supabase", "PostgreSQL", "MySQL"];
   const tools = ["Git", "VSCode", "Visual Studio", "Discord","Github"];
 
   return (
