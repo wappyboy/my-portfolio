@@ -51,13 +51,13 @@ export const Contact = () => {
           </a>
         </p>
       </div>
-      <p>If you want to chat, feel free to reach out anytime!</p>
+      <p>If you want to contact me, feel free to reach out anytime!</p>
     </div>
 
     {/* Social Media Card */}
     <div className="p-6 bg-white border border-gray-200 rounded-lg shadow hover:shadow-md transition-shadow">
       <h3 className="text-2xl font-semibold text-gray-900 mb-6 text-center">Social Media</h3>
-      <div className="flex justify-center space-x-8 bg-gray-100 shadow rounded-lg px-8 py-4 text-3xl text-gray-600">
+      <div className="flex justify-center space-x-20 bg-gray-100 shadow rounded-lg px-8 py-4 text-3xl text-gray-900">
         {socials.map(({ name, url, icon }) => (
           <a
             key={name}

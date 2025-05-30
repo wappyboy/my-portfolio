@@ -33,7 +33,7 @@ export const Projects = () => {
 
   return (
     <section
-      className="p-6 mt-4 mb-4 mx-4 bg-white rounded-lg border border-gray-200 shadow-sm transition-shadow hover:shadow-md"
+      className="p-6 text-justify mt-4 mb-4 mx-4 bg-white rounded-lg border border-gray-200 shadow-sm transition-shadow hover:shadow-md"
       id="projects"
     >
         <h3 className="text-2xl font-semibold mb-4">Projects</h3>
@@ -45,9 +45,9 @@ export const Projects = () => {
                 style={{ animationDelay: `${i * 0.3}s`, animationFillMode: "forwards" }}
               >
                 <h4 className="font-bold text-indigo-600 dark:text-black">{project.title}</h4>
-                <p className="text-sm text-gray-500 mb-2 italic">Tech Stack: {project.tech}</p>
+                <p className="text-sm text-gray-800 mb-2 italic">Tech Stack: {project.tech}</p>
                 <p className="text-gray-700 dark:text-gray-900">{project.description}</p>
-                <p className="mt-2 text-sm text-gray-600">
+                <p className="mt-2 text-sm text-gray-800">
                   <strong>Highlights:</strong> {project.highlights}
                 </p>
               </div>

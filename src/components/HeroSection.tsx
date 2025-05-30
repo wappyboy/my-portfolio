@@ -17,7 +17,7 @@ export const HeroSection = () => (
         <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900">
           Ralph E. Eco
         </h2>
-        <p className="mt-1 text-gray-600 text-lg md:text-xl">
+        <p className="mt-1 text-gray-800 text-lg md:text-xl">
           Full-stack Developer | Passionate Coder | Lifelong Learner | Problem Solver
         </p>
 
