@@ -4,7 +4,7 @@ export const TechStack = () => {
   const tools = ["Git", "VSCode", "Visual Studio", "Discord", "Github"];
 
   return (
-    <section
+    <section data-aos="fade-up" data-aos-delay="300"
       className="p-6 mt-4 mb-4 mx-4 bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-700 shadow-sm transition-shadow hover:shadow-md"
       id="tech"
     >

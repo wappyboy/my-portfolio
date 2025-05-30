@@ -1,5 +1,5 @@
 export const About = () => (
-  <section className="p-6 mx-4 bg-white dark:bg-gray-900 rounded-lg transition-colors duration-300" id="about">
+  <section data-aos="fade-up" data-aos-delay="100" className="p-6 mx-4 bg-white dark:bg-gray-900 rounded-lg transition-colors duration-300" id="about">
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
       
       {/* About Card */}

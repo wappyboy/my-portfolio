@@ -1,7 +1,7 @@
 import { ThemeToggle } from './ThemeToggle';
 
 export const HeroSection = () => (
-  <section
+  <section data-aos="fade-up"
     className="relative ml-0 md:ml-10 py-12 bg-white dark:bg-gray-900 transition-colors duration-300"
     id="hero"
   >

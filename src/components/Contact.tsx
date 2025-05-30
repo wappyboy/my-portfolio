@@ -21,7 +21,7 @@ export const Contact = () => {
   ];
 
   return (
-    <section className="p-6 mx-4 bg-white dark:bg-gray-900 rounded-lg" id="contact">
+    <section  data-aos="fade-up" data-aos-delay="200" className="p-6 mx-4 bg-white dark:bg-gray-900 rounded-lg" id="contact">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
         {/* Contact Card */}

@@ -32,7 +32,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section
+    <section data-aos="fade-up" data-aos-delay="400"
 className="p-6 text-justify mt-4 mb-4 mx-4 bg-white dark:bg-gray-900 rounded-lg border border-gray-200 dark:border-gray-600 shadow-sm hover:shadow-md transition duration-300"
       id="projects"
     >
