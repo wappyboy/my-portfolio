@@ -27,7 +27,7 @@ export const HeroSection = () => (
           Ralph E. Eco
         </h2>
         <p className="mt-1 text-gray-800 dark:text-gray-300 text-lg md:text-xl">
-          Full-stack Developer | Passionate Coder | Lifelong Learner | Problem Solver
+          Full-Stack Developer | Passionate Coder | Lifelong Learner | Problem Solver
         </p>
 
         {/* Location */}
