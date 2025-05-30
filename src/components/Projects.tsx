@@ -44,7 +44,7 @@ className="p-6 text-justify mt-4 mb-4 mx-4 bg-white dark:bg-gray-900 rounded-lg 
       className="border border-gray-300 dark:border-gray-700 p-4 rounded transition duration-300 hover:scale-105 hover:shadow-lg cursor-pointer bg-white dark:bg-gray-800"
               style={{ animationDelay: `${i * 0.3}s`, animationFillMode: "forwards" }}
             >
-              <h4 className="font-bold text-indigo-600 dark:text-indigo-400">{project.title}</h4>
+            <h4 className="font-bold text-gray-800 dark:text-gray-300">{project.title}</h4>
               <p className="text-sm text-gray-800 dark:text-gray-300 mb-2 italic">
                 Tech Stack: {project.tech}
               </p>
