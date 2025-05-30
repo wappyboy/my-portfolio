@@ -2,7 +2,7 @@ import { ThemeToggle } from './ThemeToggle';
 
 export const HeroSection = () => (
   <section data-aos="fade-up"
-    className="relative ml-0 md:ml-10 py-12 bg-white dark:bg-gray-900 transition-colors duration-300"
+    className="relative px-6 py-12 mb-4 bg-white dark:bg-gray-900 transition-colors duration-300"
     id="hero"
   >
     {/* Theme Toggle - Positioned Top Right */}
