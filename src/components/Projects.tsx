@@ -36,7 +36,6 @@ export const Projects = () => {
       className="p-6 mt-4 mb-4 mx-4 bg-white rounded-lg border border-gray-200 shadow-sm transition-shadow hover:shadow-md"
       id="projects"
     >
-      <div className="p-4 space-y-4 animate-fade-in shadow rounded-lg bg-white dark:bg-white">
         <h3 className="text-2xl font-semibold mb-4">Projects</h3>
         <div className="space-y-4">
           {projects.map((project, i) => {
@@ -68,7 +67,6 @@ export const Projects = () => {
             );
           })}
         </div>
-      </div>
 
       <style>{`
         .animate-fade-in {
