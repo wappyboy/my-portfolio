@@ -5,7 +5,7 @@ export const Projects = () => {
       tech: "Laravel, MySQL",
       description: "An admin dashboard for creating and managing marketing campaigns.",
       highlights: "Full CRUD, campaign analytics, Laravel MVC.",
-      link: "https://aicsmarketing.online/",
+      link: "https://aicsmarketing.onlined/",
     },
     {
       title: "Bebetime – Web App",
