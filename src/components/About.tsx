@@ -1,29 +1,93 @@
+import { FiAward, FiBarChart2, FiLayout, FiUser } from 'react-icons/fi';
+
+const quickFacts = [
+  { label: 'Primary focus', value: 'Frontend engineering and UI quality', icon: FiLayout },
+  { label: 'Supporting strengths', value: 'Full-stack apps, Flutter, and backend integration', icon: FiUser },
+  { label: 'Data experience', value: 'Looker Studio dashboards with Google Sheets', icon: FiBarChart2 },
+  { label: 'Recognition', value: 'Best Programmer and Best in Thesis, 2025', icon: FiAward },
+];
+
 export const About = () => (
-  <section data-aos="fade-up" data-aos-delay="100" className="p-6 mx-4 bg-white dark:bg-gray-900 rounded-lg transition-colors duration-300" id="about">
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-      
-      {/* About Card */}
-      <div className="p-5 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg shadow hover:shadow-md transition-shadow">
-        <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">About</h3>
-        <p className="text-black dark:text-gray-300 text-justify">
-          I’m a recent Bachelor of Science in Computer Science graduate with a strong foundation in full-stack development and a passion for creating intuitive and impactful applications. 
-          I specialize in building responsive web and mobile experiences using technologies like React, Flutter, TypeScript, and Laravel.
-          I enjoy turning ideas into code and continuously learning new tools to grow as a developer.
+  <section
+    data-aos="fade-up"
+    data-aos-delay="80"
+    className="section-shell"
+    id="about"
+  >
+    <div className="mb-8 flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+      <div>
+        <span className="section-kicker">About</span>
+        <h2 className="section-title mt-5">
+          A developer focused on clarity, usability, and real-world execution.
+        </h2>
+      </div>
+      <p className="section-copy max-w-xl">
+        My goal is simple: build software that looks professional, works
+        reliably, and communicates value quickly to both users and teams.
+      </p>
+    </div>
+
+    <div className="grid gap-5 lg:grid-cols-[1.05fr_0.95fr]">
+      <div className="glass-card">
+        <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[var(--color-muted)]">
+          Professional summary
         </p>
+        <p className="mt-5 text-base leading-8 text-[var(--color-text)] sm:text-lg">
+          I&apos;m Ralph E. Eco, a Computer Science graduate with experience in
+          frontend development, full-stack application work, and operational
+          dashboard reporting. I enjoy creating products that are clean on the
+          surface, structured underneath, and easy for people to understand.
+        </p>
+        <p className="mt-4 text-sm leading-7 text-[var(--color-muted)]">
+          My work combines interface design thinking with implementation
+          discipline. On the frontend, I care about hierarchy, responsiveness,
+          and polish. On the delivery side, I can support applications with
+          backend logic, mobile builds, and dashboard systems that make data
+          useful instead of overwhelming.
+        </p>
+        <p className="mt-4 text-sm leading-7 text-[var(--color-muted)]">
+          I&apos;m especially interested in roles where strong UI execution,
+          engineering fundamentals, and product-minded problem solving all
+          matter at the same time.
+        </p>
+
+        <div className="section-divider my-6" />
+
+        <div className="flex flex-wrap gap-3">
+          {[
+            'React',
+            'TypeScript',
+            'Flutter',
+            'Laravel',
+            'Looker Studio',
+            'Google Sheets',
+          ].map((item) => (
+            <span key={item} className="muted-chip">
+              {item}
+            </span>
+          ))}
+        </div>
       </div>
 
-      {/* Achievements Card */}
-      <div className="p-5 bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 rounded-lg shadow hover:shadow-md transition-shadow">
-        <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">Achievements</h3>
-        <ul className="list-disc list-inside text-justify text-black dark:text-gray-300 space-y-2">
-          <li><strong>Best Programmer Award</strong> – 2025</li>
-          <li><strong>Best in Thesis Award</strong> – 2025</li>
-          <li>
-            <strong>Speakify</strong>: A Smart Glove and Mobile App for Real-Time Gesture-to-Speech Translation and Emotional Expression
-          </li>
-        </ul>
+      <div className="grid gap-4">
+        {quickFacts.map(({ label, value, icon: Icon }) => (
+          <div key={label} className="glass-card">
+            <div className="flex items-start gap-4">
+              <span className="rounded-2xl bg-[var(--color-accent-soft)] p-3 text-[var(--color-accent)]">
+                <Icon />
+              </span>
+              <div>
+                <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[var(--color-muted)]">
+                  {label}
+                </p>
+                <p className="mt-2 text-base font-semibold leading-7 text-[var(--color-text)]">
+                  {value}
+                </p>
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
-
     </div>
   </section>
 );
