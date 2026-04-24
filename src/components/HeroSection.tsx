@@ -6,6 +6,7 @@ import {
   FiBriefcase,
   FiMapPin,
 } from 'react-icons/fi';
+import { ProfileAvatar } from './ProfileAvatar';
 
 const awards = [
   'Best Programmer Award',
@@ -137,17 +138,20 @@ export const HeroSection = () => (
       >
         <div className="flex flex-col gap-5 sm:gap-6">
           <motion.div
-            className="relative mx-auto h-48 w-48 overflow-hidden rounded-[2rem] border border-white/25 bg-[var(--color-accent-soft)] shadow-xl"
+            className="mx-auto h-48 w-48"
             initial={{ scale: 0.94, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.75, delay: 0.25, ease: [0.22, 1, 0.36, 1] }}
           >
-            <div className="absolute inset-0 bg-gradient-to-tr from-black/10 to-transparent" />
-            <img
-              src="/formal2.png"
+            <ProfileAvatar
               alt="Portrait of Ralph E. Eco"
-              className="h-full w-full object-cover"
-              loading="lazy"
+              className="h-full w-full"
+              darkImageSrc="/profile-sunglasses.png"
+              darkVideoSrc="/profile-sunglasses.mp4"
+              fallbackDarkImageSrc="/formal2.png"
+              fallbackLightImageSrc="/formal2.png"
+              lightImageSrc="/profile-normal.png"
+              priority
             />
           </motion.div>
 
