@@ -20,6 +20,18 @@ className="p-6 mt-4 mb-4 mx-4 bg-white dark:bg-gray-900 rounded-lg border border
             <li>Implemented secure authentication and role-based access control.</li>
           </ul>
         </li>
+        <li>
+          <strong className="text-lg text-gray-800 dark:text-gray-200">
+            Technical Support (Data & Reporting) – Job Order
+          </strong> TESDA (Government) (July 2025 - Present)
+          <ul className="mt-2 list-disc text-justify list-inside text-gray-700 dark:text-gray-300 space-y-1">
+            <li>Consolidated and organized data from multiple sources to support reporting and decision-making</li>
+            <li>Developed interactive dashboards using Looker Studio, improving data visibility and reporting
+efficiency.</li>
+            <li>Analyzed data trends and presented insights in a clear, easy-to-understand format for staff.</li>
+            <li>Helped reduce manual reporting processes through dashboard automation.</li>
+          </ul>
+        </li>
 
       </ul>
     </div>
